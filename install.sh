@@ -116,6 +116,11 @@ main() {
   echo "autoload -U compinit compdef" >> ~/.zshrc
   echo "compinit" >> ~/.zshrc
   echo "cd ~" >> ~/.zshrc
+  ##
+  # Install autosuggestions plugin
+  ##
+  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+  sed -Ei 's/(plugins=\(.*)\)/\1 zsh-autosuggestions)/' ~/.zshrc
 
   ##
   # Fancy Ascii
