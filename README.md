@@ -4,7 +4,7 @@ Oh My Zsh for Google Cloud Shell Pro
 
 ### Install
 1. Open Cloud Shell Pro
-2. Run: `sh -c "$(curl -fsSL https://goo.gl/kXOWTl)"` (link to install script in this repo)
+2. Download...
 
 _Note: after 30 min the cloud shell resets to its original state, the script will automatically install after this._
 
